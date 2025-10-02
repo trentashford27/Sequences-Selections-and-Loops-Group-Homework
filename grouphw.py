@@ -26,7 +26,14 @@
 
 # ============================================
 
+# 2. SEQUENCE
+grades = [82, 90, 88, 98, 92]
+total = 0
 
+for grade in grades:
+    total += grade
+
+average = total / len(grades)
 
 # 2. SELECTION - Decision making with if/else
 print("2. SELECTION EXAMPLE")
