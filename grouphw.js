@@ -28,7 +28,15 @@ different from your buddy's reflection.]
 */
 // ============================================
 
+// 1. SEQUENCE
+let grades = [84, 76, 92, 82, 86];
+let sum = 0;
 
+for (let i = 0; i < grades.length; i++){
+    sum += grades[i];
+}
+let average = sum / grades.length;
+    
 // 2. SELECTION - Decision making with if/else
 console.log("2. SELECTION EXAMPLE");
 let grade;
