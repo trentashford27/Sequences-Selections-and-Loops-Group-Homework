@@ -26,7 +26,8 @@
 
 # ============================================
 
-# 2. SEQUENCE
+# 1. SEQUENCE
+print("1. SEQUENCE EXAMPLE")
 grades = [82, 90, 88, 98, 92]
 total = 0
 
