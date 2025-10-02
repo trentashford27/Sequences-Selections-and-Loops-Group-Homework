@@ -1,33 +1,49 @@
 // ============================================
 // CSC 111 – Introduction to Computing
-// Assignment: [Sequences, Selections, Loops]
-// Student Name: [Trenton Ashford]
-// Z Number: Z60672398
-// Date: [2025-10-01]
+// Assignment: Sequences, Selections, Loops
+// Student Name: Obinna Amadi
+// Programming Buddy: Trenton Ashford, Milca
+// Z Number: Z00040959
+// Date: 2025-10-01
 // Instructor: Prof. Felicity M. Weed Jackson
-// File Name: grouphw.js <------ (change this based on assignment instructions!)
+// File Name: grouphw.js
 // ============================================
+
 /* Description:
-This program [briefly describe what the program does].
-It uses [mention key JavaScript concepts used, e.g., variables, loops, functions].
+This program demonstrates sequences, selections, and loops using
+a student grade calculator. It uses variables, if/else statements,
+and for/while loops.
 */
 
 /* How it works:
-[Explain the logic or flow of the program in simple terms.
-For example: "The program asks the user for ___ input, performs a ____ calculation,
-and then displays the result in the console or on the webpage."]
+First, it calculates a student's average grade (sequence).
+Then, it determines the letter grade using conditionals (selection).
+Finally, it prints a pattern and countdown using loops.
 */
 
 /* Reflection:
-[Write 2–3 sentences about what you learned, what was challenging,
-or what you found interesting about this assignment.]
+[Write YOUR OWN 2-3 sentences about what YOU learned, what was
+challenging for YOU, or what YOU found interesting. This must be
+different from your buddy's reflection.]
 */
 // ============================================
 
-// [start coding here]
 
-// Sequence Code in Javascript
-for (let x = 1; x <= 10; x++){
-    console.log(x);
+// 2. SELECTION - Decision making with if/else
+console.log("2. SELECTION EXAMPLE");
+let grade;
+if (average >= 90) {
+    grade = "A";
+} else if (average >= 80) {
+    grade = "B";
+} else if (average >= 70) {
+    grade = "C";
+} else if (average >= 60) {
+    grade = "D";
+} else {
+    grade = "F";
 }
+console.log(`Letter Grade: ${grade}\n`);
+
+
 
