@@ -29,6 +29,7 @@ different from your buddy's reflection.]
 // ============================================
 
 // 1. SEQUENCE
+console.log("1. SEQUENCE EXAMPLE");
 let grades = [84, 76, 92, 82, 86];
 let sum = 0;
 
