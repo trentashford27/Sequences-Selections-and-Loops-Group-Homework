@@ -1,31 +1,45 @@
 # ============================================
 # CSC 111 – Introduction to Computing
-# Lab #: [Sequences, Selections, Loops]
-# Student Name: [Trenton Ashford]
-# Z Number: Z60672398
-# Date: [2025-10-01]
+# Lab #: Sequences, Selections, Loops
+# Student Name: Obinna  Amadi 
+# Programming Buddy: Trenton Ashford, Milca 
+# Z Number: Z00040959
+# Date: 2025-10-01
 # Instructor: Prof. Felicity M. Weed Jackson
-# File Name: grouphw.py <------ (change this based on lab instructions!)
+# File Name: grouphw.py
 # ============================================
 
 # Description:
-# This program [briefly describe what the program does].
-# It uses [mention key Python concepts used, e.g., variables, loops, functions].
-#
+# This program demonstrates sequences, selections, and loops using
+# a student grade calculator. It uses variables, if/else statements,
+# and for/while loops.
+
 # How it works:
-# [Explain the logic or flow of the program in simple terms.
-# For example: "The program asks the user for ___ input, performs a ____ calculation,
-# and then prints the result."]
+# First, it calculates a student's average grade (sequence).
+# Then, it determines the letter grade using conditionals (selection).
+# Finally, it prints a pattern and a countdown using loops.
 
 # Reflection:
-# [Write 2–3 sentences about what you learned, what was challenging,
-# or what you found interesting about this lab.]
+# [Write YOUR OWN 2-3 sentences about what YOU learned, what was
+# challenging for YOU, or what YOU found interesting. This must be
+# different from your buddy's reflection.]
 
 # ============================================
 
-# [start coding here]
 
-# Sequence code in Python
-sequence = [4 + x * 4 for x in range(6)]
-print(sequence)
+
+# 2. SELECTION - Decision making with if/else
+print("2. SELECTION EXAMPLE")
+if average >= 90:
+    grade = "A"
+elif average >= 80:
+    grade = "B"
+elif average >= 70:
+    grade = "C"
+elif average >= 60:
+    grade = "D"
+else:
+    grade = "F"
+print(f"Letter Grade: {grade}\n")
+
 
