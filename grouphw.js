@@ -1,18 +1,16 @@
 // ============================================
 // CSC 111 – Introduction to Computing
-// Assignment: Sequences, Selections, Loops
-// Student Name: Obinna Amadi
-// Programming Buddy: Trenton Ashford, Milca
-// Z Number: Z00040959
-// Date: 2025-10-01
+// Assignment: [Sequences, Selections, Loops]
+// Student Name: [Milca Medina]
+// Study Budies: Trenton Ashford and Obinna Amadi
+// Z Number: Z91881809
+// Date: [2025-10-01]
 // Instructor: Prof. Felicity M. Weed Jackson
-// File Name: grouphw.js
+// File Name: grouphw.js <------ (change this based on assignment instructions!)
 // ============================================
-
 /* Description:
-This program demonstrates sequences, selections, and loops using
-a student grade calculator. It uses variables, if/else statements,
-and for/while loops.
+This program demosntrates sequences, selections, and loops.
+It uses variables, if/else sttements, and for/while loops.
 */
 
 /* How it works:
@@ -22,11 +20,12 @@ Finally, it prints a pattern and countdown using loops.
 */
 
 /* Reflection:
-[Write YOUR OWN 2-3 sentences about what YOU learned, what was
-challenging for YOU, or what YOU found interesting. This must be
-different from your buddy's reflection.]
+[Write 2–3 sentences about what you learned, what was challenging,
+or what you found interesting about this assignment.]
 */
 // ============================================
+
+// [start coding here]
 
 // 1. SEQUENCE
 console.log("1. SEQUENCE EXAMPLE");
@@ -54,7 +53,7 @@ if (average >= 90) {
 }
 console.log(`Letter Grade: ${grade}\n`);
 
-// Loop Example
+// Loop Example 
 console.log("3. ITERATION EXAMPLE");
 
 // Print a pattern based on student grades
@@ -67,14 +66,10 @@ for (let i = 1; i <= 5; i++) { // 5 rows
 console.log(""); // Blank line for spacing
 
 // Countdown based on average grade
-let average: 84.7 // Example average, replace with your value
+// let average: 84.7; 
 console.log("Countdown Example (From Average):");
 let start = Math.floor(average); // whole number part of average
 for (let num = start; num > 0; num -= 10) { // count down by 10
     console.log(num);
 }
-console.log("end of Countdown!\n");
-
-
-
-
+console.log("End of Countdown!\n");
