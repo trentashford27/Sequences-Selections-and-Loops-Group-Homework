@@ -54,5 +54,27 @@ if (average >= 90) {
 }
 console.log(`Letter Grade: ${grade}\n`);
 
+// Loop Example
+console.log("3. ITERATION EXAMPLE");
+
+// Print a pattern based on student grades
+let letter_grade = "B"; // You can change this to the actual grade
+console.log("Pattern Example (Letter Grade Triangle)");
+for (let i = 1; i <= 5; i++) { // 5 rows
+    console.log(letter_grade.repeat(i));
+}
+
+console.log(""); // Blank line for spacing
+
+// Countdown based on average grade
+let average: 84.7 // Example average, replace with your value
+console.log("Countdown Example (From Average):");
+let start = Math.floor(average); // whole number part of average
+for (let num = start; num > 0; num -= 10) { // count down by 10
+    console.log(num);
+}
+console.log("end of Countdown!\n");
+
+
 
 
