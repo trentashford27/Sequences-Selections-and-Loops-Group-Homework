@@ -50,4 +50,19 @@ else:
     grade = "F"
 print(f"Letter Grade: {grade}\n")
 
+# 3. Loops Example
+print("3. ITERATION EXAMPLE")
 
+# Pattern pritting based on students grade
+print("Pattern Example (Letter Grade Triangle)")
+for i in range(1, 6):  # 5 rows
+    print(letter_grade * i)
+
+print () #Blank Line for spacing
+
+# Countdown based on average grade
+print("Countdown Example (From Average):")
+start = int(average // 1) # use whole number part of average
+for num in range(start, 0, -10): # count down by 10 
+    print(num)
+print("End of Countdown!\n")
